@@ -1,14 +1,15 @@
 # Heaps 
 
 ## Java 
+```java
 PriorityQueue<Integer> minHeap = new PriorityQueue<>();
-   
+```
+
 - default min heap 
 
 - Max heap    
-  PriorityQueue<Integer> pQueue
-            = new PriorityQueue<Integer>(
-                Collections.reverseOrder());
-- using comapartor to sort :
+```java
+PriorityQueue<Integer> pQueue = new PriorityQueue<Integer>(Collections.reverseOrder());
+```
 
-
+- using comparator to sort :
