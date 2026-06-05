@@ -2,6 +2,7 @@
 
 ## Java 
 PriorityQueue<Integer> minHeap = new PriorityQueue<>();
+PriorityQueue<Integer> minHeap = new PriorityQueue<>();
    
 - default min heap 
 
