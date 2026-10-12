@@ -1,5 +1,6 @@
-void backtrack(List<Integer> state, int start, int[] input, List<List<Integer>> result) {
-    // ✅ Base case – can be customized based on the problem
+void backtrack(List<Integer> state, int start, int[] input, List<List<Integer>> result) { 
+
+        // ✅ Base case – can be customized based on the problem
     if (isGoalState(state)) {
         result.add(new ArrayList<>(state));
         return;
